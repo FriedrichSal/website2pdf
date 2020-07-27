@@ -11,7 +11,7 @@ function url2pdf(url, filename) {
     try {
       await page.goto(url, {waitUntil: 'networkidle2'});
     } catch (err) {
-      console.log('url2pdf says: could not go to url: ' + url)
+      console.log('Could not go to url: ' + url)
       console.error(err)
       return
     }
