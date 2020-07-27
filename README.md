@@ -23,6 +23,6 @@ If all goes well the service is now running on localhost:3000. So now you can do
 http://localhost:3000/?url=http://www.google.com&filename=google.pdf
 ```
 
-## Cusomisations
+## Customisations
 In the file `aspdf.js` you can select a selector to wait for in the variable `selector_to_wait_for` as well as changint the timeout for waiting for that selector to appear.
 
